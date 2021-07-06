@@ -4,7 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-  "homepage": "https://github.com/raaznn/react-router",
+  "homepage": "https://raaznn.github.io/react-router/",
   "dependencies": {
     "gh-pages": "^3.2.3",
     "react": "17.0.2",
@@ -16,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
